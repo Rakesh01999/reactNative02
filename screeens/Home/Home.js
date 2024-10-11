@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <View>
             <Text>
-                Hey This is from Home
+                This is from Home
             </Text>
         </View>
     )

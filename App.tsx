@@ -114,7 +114,7 @@ const App = () => {
   return(
     <View>
       <Text>
-        Hello is everything ok
+        Hello it is App.tsx
         <Home />
       </Text>
     </View>
