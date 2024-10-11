@@ -30,6 +30,10 @@ npm install react-native-gesture-handler
 ```
 import 'react-native-gesture-handler';
 ```
+8.install
+```
+npm install @react-native-masked-view/masked-view
+```
 
 
 
