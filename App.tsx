@@ -10,6 +10,7 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
+import Home from './screeens/Home/Home';
 
 // import {
 //   Colors,
@@ -114,6 +115,7 @@ const App = () => {
     <View>
       <Text>
         Hello is everything ok
+        <Home />
       </Text>
     </View>
   )
