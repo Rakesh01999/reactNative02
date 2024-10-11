@@ -1,3 +1,38 @@
+## React Navigation Command 
+### Docs [React Navigation](https://reactnavigation.org/docs/getting-started/)
+1.
+```
+npm install @react-navigation/native
+```
+2.
+```
+npm install react-native-screens react-native-safe-area-context
+```
+3.Paste it to MainActivity.kt
+```
+ override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(null)
+  }
+```
+4.
+```
+import android.os.Bundle;
+```
+5.
+```
+npm install @react-navigation/stack
+```
+6.
+```
+npm install react-native-gesture-handler
+```
+7.to index.js
+```
+import 'react-native-gesture-handler';
+```
+
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started

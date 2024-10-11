@@ -13,6 +13,7 @@ class MainActivity : ReactActivity() {
    */
   override fun getMainComponentName(): String = "reactNative02"
 
+
   /**
    * Returns the instance of the [ReactActivityDelegate]. We use [DefaultReactActivityDelegate]
    * which allows you to enable New Architecture with a single boolean flags [fabricEnabled]
