@@ -11,6 +11,8 @@ import {
   View,
 } from 'react-native';
 import Home from './screeens/Home/Home';
+import { NavigationContainer } from '@react-navigation/native';
+import MainNavigation from './navigation/MainNavigation';
 
 // import {
 //   Colors,
@@ -111,12 +113,16 @@ import Home from './screeens/Home/Home';
 // });
 
 const App = () => {
-  return(
+  return (
     <View>
       <Text>
         Hello it is App.tsx
-        <Home />
+        {/* <Home /> */}
       </Text>
+
+      <NavigationContainer>
+        <MainNavigation />
+      </NavigationContainer>
     </View>
   )
 }
