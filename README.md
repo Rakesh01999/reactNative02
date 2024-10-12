@@ -34,8 +34,8 @@ import 'react-native-gesture-handler';
 ```
 npm install @react-native-masked-view/masked-view
 ```
-9.facing issues with ':react-native-screens'.
-
+9. facing issues with ':react-native-screens'.
+10. working on 'navigation'
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
