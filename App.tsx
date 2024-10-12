@@ -120,9 +120,9 @@ const App = () => {
         {/* <Home /> */}
       </Text>
 
-      <NavigationContainer>
+      {/* <NavigationContainer>
         <MainNavigation />
-      </NavigationContainer>
+      </NavigationContainer> */}
     </View>
   )
 }

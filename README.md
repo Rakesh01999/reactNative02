@@ -34,6 +34,7 @@ import 'react-native-gesture-handler';
 ```
 npm install @react-native-masked-view/masked-view
 ```
+9.facing issues with ':react-native-screens'.
 
 
 
