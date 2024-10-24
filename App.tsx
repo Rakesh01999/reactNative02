@@ -7,12 +7,16 @@ import {
   StatusBar,
   StyleSheet,
   Text,
+  TouchableOpacity,
   useColorScheme,
   View,
 } from 'react-native';
 import Home from './screeens/Home/Home';
 import { NavigationContainer } from '@react-navigation/native';
 import MainNavigation from './navigation/MainNavigation';
+import MaterialIcons from '@react-native-vector-icons/material-icons';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 
 // import {
 //   Colors,
@@ -112,18 +116,26 @@ import MainNavigation from './navigation/MainNavigation';
 //   },
 // });
 
+
 const App = () => {
   return (
-    <View>
-      <Text>
-        Hello it is App.tsx
-        {/* <Home /> */}
-      </Text>
+    <SafeAreaView style={{flex:1, justifyContent:"center", alignItems:'center', backgroundColor:"green"}}>
+      <View>
+        <Text style={{color:"white", fontSize:20, fontWeight:"bold"}}>
+          Hello it is App.tsx
+          {/* <Home /> */}
+        </Text>
+      </View>
+      <TouchableOpacity style={{backgroundColor:"yellow", padding:20, width:"full",borderRadius:5, flexDirection:"row", justifyContent:"space-between", alignItems:"center"}}>
+        <Text style={{color:"black", fontWeight:"bold"}}>Let's Begin</Text>
+        {/* <MaterialIcons name="house" color="#ff0000" size={20} /> */}
+        <Icon name="rocket" size={30} color="#900" />
+      </TouchableOpacity>
+    </SafeAreaView>
 
-      {/* <NavigationContainer>
-        <MainNavigation />
-      </NavigationContainer> */}
-    </View>
+    // <NavigationContainer>
+    //   <MainNavigation />
+    // </NavigationContainer>
   )
 }
 

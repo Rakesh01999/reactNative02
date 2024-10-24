@@ -4,7 +4,7 @@
 ```
 npm install @react-navigation/native
 ```
-2.
+2. Alert
 ```
 npm install react-native-screens react-native-safe-area-context
 ```
@@ -34,8 +34,25 @@ import 'react-native-gesture-handler';
 ```
 npm install @react-native-masked-view/masked-view
 ```
-9. facing issues with ':react-native-screens'.
-10. working on 'navigation'
+9.install
+```
+npm i @react-native-vector-icons/material-icons
+```
+10.install
+```
+npm i react-native-svg
+```
+11.install
+```
+npm i react-native-svg-transformer
+```
+
+
+### ref-github (react-native-svg-transformer) :
+* [Git Repo](https://github.com/kristerkari/react-native-svg-transformer)
+
+#### facing issues with ':react-native-screens'.
+#### working on 'navigation'
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
