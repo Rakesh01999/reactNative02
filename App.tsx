@@ -10,12 +10,14 @@ import {
   TouchableOpacity,
   useColorScheme,
   View,
+  Image
 } from 'react-native';
 import Home from './screeens/Home/Home';
 import { NavigationContainer } from '@react-navigation/native';
 import MainNavigation from './navigation/MainNavigation';
 import MaterialIcons from '@react-native-vector-icons/material-icons';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import Gaming from './src/assets/images/gaming.png';
 
 
 // import {
@@ -119,15 +121,24 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 const App = () => {
   return (
-    <SafeAreaView style={{flex:1, justifyContent:"center", alignItems:'center', backgroundColor:"green"}}>
+    <SafeAreaView style={{ flex: 1, justifyContent: "center", alignItems: 'center' , marginVertical:15}}>
       <View>
-        <Text style={{color:"white", fontSize:20, fontWeight:"bold"}}>
-          Hello it is App.tsx
+        <Text style={{ color: "blue", fontSize: 30, fontWeight: "bold" }}>
+          Game On
           {/* <Home /> */}
         </Text>
       </View>
-      <TouchableOpacity style={{backgroundColor:"yellow", padding:20, width:"full",borderRadius:5, flexDirection:"row", justifyContent:"space-between", alignItems:"center"}}>
-        <Text style={{color:"black", fontWeight:"bold"}}>Let's Begin</Text>
+
+      {/* ----------- Gaming Image ----------  */}
+      <View style={{flex:1, justifyContent: "center", alignItems: "center"}}>
+        <Image
+          source={Gaming} // Use the image file as the source
+          style={{ width: 200, height: 200 }} // Adjust the size accordingly
+        />
+      </View>
+
+      <TouchableOpacity style={{ backgroundColor: "#b9c928", padding: 10, width: 300, height: 60, borderRadius: 5, flexDirection: "row", justifyContent: "space-between", alignItems: "center" , marginBottom:50}}>
+        <Text style={{ color: "black", fontWeight: "bold" }}>Let's Begin</Text>
         {/* <MaterialIcons name="house" color="#ff0000" size={20} /> */}
         <Icon name="rocket" size={30} color="#900" />
       </TouchableOpacity>
